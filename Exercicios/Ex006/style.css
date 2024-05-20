@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+:root {
+    --cor0: #E04809;
+    --cor1: #E08F09;
+    --cor2: #E06E09;
+    --cor3: #E02209;
+    --cor4: #E0A909;
+    --cor5: #E19552;
+}
+
+* {
+    margin: auto;
+}
+
+body{
+    background-color: var(--cor5);
+    header {
+        background-color: var(--cor0);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+        padding: 30px 0px;
+   
+    }
+
+    header > h1 {
+       
+        color: white;
+        font-size: 3em;
+        text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.342);
+    }
+
+    nav {
+        background-color: var(--cor2);
+        padding: 10px;
+        margin: auto;
+        text-align: center;
+        box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.596);
+    }
+
+    nav a {
+        padding: 10px;
+        color: white;
+        text-decoration: none;
+        margin: 5px;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 1.2em;
+        font-weight: bold;
+    }
+
+    nav a:hover {
+        background-color: var(--cor5);
+        color: var(--cor3);
+        
+    }
+
+    }
+
+    main {
+        background-color: white;
+        min-width: 300px;
+        max-width: 1000px;
+        margin: auto;
+        padding: 10px;
+        box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.438);
+        margin-bottom: 40px;
+        border-radius: 0px 0px 10px 10px;
+        }
+
+        main h2 {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: bold;
+            margin: 0px -10px;
+            padding: 0px 20px;
+
+        }
+
+       main p {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.2em;
+        text-align: justify;
+        text-indent: 30px;
+        line-height: 1.5em;
+        margin: 10px;
+       } 
+
+    main img {
+        max-width: 620px;
+        margin: 0px 10px 10px 200px;
+        box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.753);
+    }
+
+    footer {
+        color: white;
+        background-color: var(--cor0);
+        text-align: center;
+        
+    }
